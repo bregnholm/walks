@@ -1,0 +1,67 @@
+.goals {
+  margin: 0;
+  /*margin-bottom: 3vh; */
+  /* border-bottom: 10vh solid tomato; */
+}
+
+header.walks {
+  background-color: lightgreen;
+}
+
+div.box {
+  height: calc(100vh - 56px - 10vh);
+  text-align: center;
+}
+
+div.box > div {
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  right: auto;
+  bottom: auto;
+  width: 80vw;
+}
+
+/*div.box h2 {
+  margin-bottom: 6vh;
+}
+*/
+
+div.box h4 {
+  margin-bottom: 6vh;
+}
+
+div.box span {
+  color: #28a745;
+  width: auto;
+  font-weight: bold;
+}
+
+div.box span.notReached {
+  color: tomato;
+}
+
+div.dayofWalk {
+  border-bottom: 1px dashed gray;
+}
+
+/*div.dayofWalk span {
+  width: auto;
+}
+*/
+div.dayofWalk input {
+  float: right;
+  border:none;
+}
+
+div.goals {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+div.goals.open {
+  max-height: calc(100vh - 56px - 10vh);
+  overflow: scroll;
+}

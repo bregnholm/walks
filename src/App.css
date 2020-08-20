@@ -1,0 +1,78 @@
+.App {
+    text-align: left;
+    background-color: #282c34;
+    min-height: 100vh;
+  }
+  header {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(15px + 4vmin);
+    color: white;
+    font-weight: bolder;
+  }
+  
+header .btn{
+  position: absolute;
+  right: 2vw;
+}
+
+  main div.list {
+    margin: 0.7vh 0;
+  }
+  
+
+  main {
+    font-size: calc(12px + 2vmin);
+    color: white;
+    padding: 0 2vw;
+  }
+  
+  main span {
+    width: 70%;
+    display: inline-block;
+  }
+  
+  main input {
+    font: inherit;
+    background: none;
+    border: none;
+    border-bottom: 1px white dashed;
+    color:inherit;
+    text-align: right;
+    padding: 0;
+    width: 30%;
+  }
+  
+  main h3, main h2, main h1 {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+  }
+  main h1 {
+    color: tomato;
+    font-weight: bold;
+    margin-bottom: 1vh;
+  }
+  main h2 {
+    margin-bottom: 1vh;
+  }
+  
+  main h2 > span{
+    display:inline;
+    color: tomato;
+    font-size: calc(20px + 3vmin);
+    font-weight: bold;
+  }
+  
+  .goals {
+    margin: 0;
+    margin-bottom: 3vh;
+    /* border-bottom: 10vh solid tomato; */
+  }
+  
+  header.eggs {
+    background-color: tomato;
+  }
