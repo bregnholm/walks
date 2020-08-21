@@ -102,7 +102,7 @@ class Walks extends React.Component {
             <Carousel.Item>
               <div className="box">
                 <Carousel.Caption>
-                  <h2>The current average is <span className={reached && 'notReached'}>{currentAverage.toFixed(2)} km</span> per day</h2>
+                  <h2>The current average is <span className={reached && 'notReached'}>{(currentAverage / 1000).toFixed(2)} km</span> per day</h2>
                   <h4>The goal is <span>{endGoal / 1000} km</span> per day</h4>
 
                   <h2>Want to succeed?</h2>
