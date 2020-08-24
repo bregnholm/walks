@@ -81,7 +81,7 @@ class Walks extends React.Component {
       <>
       <header className="walks">
         Walk Motivator
-        <Button onClick={this.goalsOpen} variant="success">{goalsOpen ? '-' : '+'}</Button>
+        <Button onClick={this.goalsOpen} variant="success"> </Button>
         </header>
 
         <main>

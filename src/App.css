@@ -16,7 +16,12 @@
   
 header .btn{
   position: absolute;
-  right: 2vw;
+  right: 1rem;
+  background-image: url(icons8-plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 2rem;
+  width: 2rem
 }
 
   main div.list {
@@ -67,12 +72,3 @@ header .btn{
     font-weight: bold;
   }
   
-  .goals {
-    margin: 0;
-    margin-bottom: 3vh;
-    /* border-bottom: 10vh solid tomato; */
-  }
-  
-  header.eggs {
-    background-color: tomato;
-  }
